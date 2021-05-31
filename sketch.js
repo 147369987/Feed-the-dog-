@@ -52,11 +52,11 @@ function draw() {
   fill("black");
   textSize(35);
   if(lastfed>=12){
-    text("Last Fed : "+ lastfed%12 + " PM", 150,35);
+    text("Last Fed Time : "+ lastfed%12 + " PM", 100,35);
    }else if(lastfed==0){
-     text("Last Fed : 12 AM",150,35);
+     text("Last Fed Time : 12 AM",100,35);
    }else{
-     text("Last Fed : "+ lastfed + " AM", 150,35);
+     text("Last Fed Time : "+ lastfed + " AM", 100,35);
    }
 }
 
